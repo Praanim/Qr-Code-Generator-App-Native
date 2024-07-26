@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:text="@string/share_qr"
         android:layout_below="@+id/qrcode_image_id"
-        android:layout_centerHorizontal="true"/>.
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

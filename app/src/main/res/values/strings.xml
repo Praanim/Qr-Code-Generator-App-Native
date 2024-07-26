@@ -9,4 +9,7 @@
     <string name="enter_text_here">Enter text here</string>
     <string name="submit">Submit</string>
     <string name="share_qr">Share QR</string>
+    <string name="camera_uploaded_picture">camera uploaded picture</string>
+    <string name="upload_image">Upload image</string>
+    <string name="camera">Camera</string>
 </resources>

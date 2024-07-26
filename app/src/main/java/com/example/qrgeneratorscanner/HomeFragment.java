@@ -11,11 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class HomeFragment extends Fragment {
 
-    public static HomeFragment newInstance(String param1, String param2) {
+    public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
@@ -40,6 +41,11 @@ public class HomeFragment extends Fragment {
         // generate qr
         btn.setOnClickListener(v -> {
             String text = editText.getText().toString().trim();
+
+            if(text.length() == 0){
+                Toast.makeText(view.getContext(), "Your text is empty", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
             // Create new fragment and pass text as argument
             QrCodeFragment qrCodeFragment = QrCodeFragment.newInstance(text);
