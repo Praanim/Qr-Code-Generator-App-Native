@@ -43,9 +43,6 @@ dependencies {
     implementation("com.google.zxing:core:3.4.1")
     implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 
-//    //camera dependencies
-//    implementation("androidx.camera:camera-core:1.1.0-alpha04");
-//    implementation ("androidx.camera:camera-camera2:1.1.0-alpha04");
-//    implementation("androidx.camera:camera-lifecycle:1.1.0-alpha04") ;
-//    implementation ("androidx.camera:camera-view:1.0.0-alpha24");
+    implementation("com.google.mlkit:barcode-scanning:17.2.0")
+
 }
