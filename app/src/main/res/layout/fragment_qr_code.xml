@@ -13,6 +13,7 @@
         android:contentDescription="@string/generated_qr_code_image_content_desc" />
 
     <Button
+        android:id="@+id/share_qr_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/share_qr"
